@@ -31,7 +31,7 @@ Clears up syntax highlighting to reveal what is important.
 
 In addition you can inspect this theme at **vivify**:
 
-* [CLICK HERE]()
+* [CLICK HERE](http://bytefluent.com/vivify/index.php?remote=raw.githubusercontent.com%2FKKPMW%2Fdistilled-vim%2Fmaster%2Fcolors%2Fdistilled.vim<Paste>)
 
 ### Installation ###
 
