@@ -44,12 +44,30 @@ Plug 'KKPMW/distilled-vim'
 colorscheme distilled
 ```
 
-The colorscheme will work with 256 color terminals but the results might not be satisfactory.
-Therefore where available it is recommended to set `termguicolors`.
+To make the colorscheme work as intended either set `termguicolors`:
 
 ```VimL
 set termguicolors
 ```
+
+Or alternatively change your terminal colors to match these:
+
+    color 0  24364b  # Black
+    color 1  e76d6d  # Red
+    color 2  88c563  # Green
+    color 3  ecb534  # Yellow
+    color 4  65baf5  # Blue
+    color 5  ae8fc1  # Purple
+    color 6  69c5b4  # Cyan
+    color 7  e4e4dd  # White
+    color 8  6194ba  # Bright Black
+    color 9  edbabf  # Bright Red
+    color 10 bfedba  # Bright Green
+    color 11 dfc56d  # Bright Yellow
+    color 12 9fcce7  # Bright Blue
+    color 13 cebaee  # Bright Purple
+    color 14 85f1a1  # Bright Cyan
+    color 15 a5b1bf  # Bright White
 
 ### Inspirations ###
 
