@@ -1,4 +1,4 @@
-# Distilled colorscheme for vim #
+# "Distilled" - colorscheme for vim #
 
 Clears up syntax highlighting to reveal what is important.
 
@@ -29,9 +29,7 @@ Clears up syntax highlighting to reveal what is important.
 ![diff](https://i.imgur.com/UU5Ccw6.png)
 
 
-In addition you can inspect this theme at **vivify**:
-
-* [CLICK HERE](http://bytefluent.com/vivify/index.php?remote=raw.githubusercontent.com%2FKKPMW%2Fdistilled-vim%2Fmaster%2Fcolors%2Fdistilled.vim<Paste>)
+In addition you can inspect this theme at [**vivify**](http://bytefluent.com/vivify/index.php?remote=raw.githubusercontent.com%2FKKPMW%2Fdistilled-vim%2Fmaster%2Fcolors%2Fdistilled.vim)
 
 ### Installation ###
 
@@ -70,8 +68,6 @@ Or alternatively change your terminal colors to match these:
     color 15 a5b1bf  # Bright White
 
 ### Inspirations ###
-
-Main inspirations:
 
 1. [nofrils](https://github.com/robertmeta/nofrils)
 2. [noclown](http://vimcolors.com/635/noclown/dark)
