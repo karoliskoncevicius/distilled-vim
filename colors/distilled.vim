@@ -97,9 +97,9 @@ hi link rOKeyword  SpecialComment
 hi link markdownHeadingDelimiter Title
 
 " rmarkdown
-hi link rmdRChunkDelim SpecialComment
-hi link rmdInlineDelim SpecialComment
-hi link rmdYamlBlockDelim SpecialComment
+hi link rmdRChunkDelim     SpecialComment
+hi link rmdInlineDelim     SpecialComment
+hi link rmdYamlBlockDelim  SpecialComment
 
 hi link SpecialChar        Normal
 hi link SpecialKey         SpecialComment
@@ -135,7 +135,7 @@ au FileType rmarkdown hi link pandocAtxHeader                     Title
 au FileType rmarkdown hi link pandocAtxStart                      Title
 
 " vim plug
-hi link plugDeleted WarningMsg
-hi link plugDash Title
-hi link plugName SpecialComment
+hi link plugDeleted  WarningMsg
+hi link plugDash     Comment
+hi link plugName     SpecialComment
 
