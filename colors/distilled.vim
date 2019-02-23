@@ -142,3 +142,8 @@ hi link plugBracket  Comment
 hi link plugDash     Comment
 hi link plugDeleted  WarningMsg
 
+" git-gutter
+hi GitGutterDeleteDefault  ctermbg=0  ctermfg=1 cterm=NONE    guibg=#24364b  guifg=#e76d6d  gui=NONE
+hi GitGutterAddDefault     ctermbg=0  ctermfg=2 cterm=NONE    guibg=#24364b  guifg=#88c563  gui=NONE
+hi GitGutterChangeDefault  ctermbg=0  ctermfg=3 cterm=NONE    guibg=#24364b  guifg=#ecb534  gui=NONE
+
