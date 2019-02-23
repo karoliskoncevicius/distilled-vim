@@ -135,7 +135,10 @@ au FileType rmarkdown hi link pandocAtxHeader                     Title
 au FileType rmarkdown hi link pandocAtxStart                      Title
 
 " vim plug
-hi link plugDeleted  WarningMsg
-hi link plugDash     Comment
+hi link plug1        Normal
+hi link plug2        SpecialComment
 hi link plugName     SpecialComment
+hi link plugBracket  Comment
+hi link plugDash     Comment
+hi link plugDeleted  WarningMsg
 
