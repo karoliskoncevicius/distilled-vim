@@ -143,7 +143,7 @@ hi link plugDash     Comment
 hi link plugDeleted  WarningMsg
 
 " git-gutter
-hi GitGutterDeleteDefault  ctermbg=0  ctermfg=1 cterm=NONE    guibg=#24364b  guifg=#e76d6d  gui=NONE
-hi GitGutterAddDefault     ctermbg=0  ctermfg=2 cterm=NONE    guibg=#24364b  guifg=#88c563  gui=NONE
-hi GitGutterChangeDefault  ctermbg=0  ctermfg=3 cterm=NONE    guibg=#24364b  guifg=#ecb534  gui=NONE
+hi GitGutterDeleteDefault  ctermfg=1  guifg=#e76d6d
+hi GitGutterAddDefault     ctermfg=2  guifg=#88c563
+hi GitGutterChangeDefault  ctermfg=3  guifg=#ecb534
 
