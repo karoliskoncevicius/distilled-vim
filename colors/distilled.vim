@@ -87,6 +87,7 @@ hi clear Constant
 hi clear Boolean
 hi clear String
 hi clear Delimiter
+hi clear Conceal
 
 " Links ------------------------------------------------------------------------
 
@@ -103,8 +104,8 @@ hi link rmdYamlBlockDelim  SpecialComment
 
 hi link SpecialChar        Normal
 hi link SpecialKey         SpecialComment
+hi link Conceal            SpecialComment
 hi link NonText            Comment
-hi link Conceal            Comment
 hi link Whitespace         Comment
 
 " quick fix window
