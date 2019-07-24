@@ -19,7 +19,7 @@ hi Normal           ctermbg=0    ctermfg=7    cterm=NONE           guibg=#24364b
 hi Title            ctermbg=NONE ctermfg=7    cterm=BOLDUNDERLINE  guibg=NONE     guifg=#e4e4dd  gui=BOLDUNDERLINE
 hi Comment          ctermbg=NONE ctermfg=8    cterm=NONE           guibg=NONE     guifg=#6194ba  gui=NONE
 hi SpecialComment   ctermbg=NONE ctermfg=12   cterm=NONE           guibg=NONE     guifg=#9fcce7  gui=NONE
-hi Todo             ctermbg=NONE ctermfg=4    cterm=UNDERLINE      guibg=NONE     guifg=#65baf5  gui=UNDERLINE
+hi Todo             ctermbg=NONE ctermfg=4    cterm=BOLDUNDERLINE  guibg=NONE     guifg=#65baf5  gui=BOLDUNDERLINE
 hi Directory        ctermbg=NONE ctermfg=6    cterm=NONE           guibg=NONE     guifg=#69c5b4  gui=NONE
 
 hi LineNr           ctermbg=NONE ctermfg=8    cterm=NONE           guibg=NONE     guifg=#6194ba  gui=NONE
