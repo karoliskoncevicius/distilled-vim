@@ -93,11 +93,17 @@ hi clear Conceal
 
 " R
 hi link rOKeyword  SpecialComment
+hi link rOTag      SpecialComment
+hi link rOTitleTag SpecialComment
+hi link rOExamples Comment
+hi link rOTitle    Comment
 
 " markdown
 hi link markdownHeadingDelimiter Title
+hi link markdownCodeDelimiter    SpecialComment
 
 " rmarkdown
+hi link rmdCodeDelim       SpecialComment
 hi link rmdRChunkDelim     SpecialComment
 hi link rmdInlineDelim     SpecialComment
 hi link rmdYamlBlockDelim  SpecialComment
@@ -142,13 +148,13 @@ hi link plugName     SpecialComment
 hi link plugBracket  Comment
 hi link plugDash     Comment
 hi link plugDeleted  WarningMsg
+hi plugInstall       ctermbg=0  ctermfg=2 cterm=NONE  guibg=#24364b  guifg=#88c563  gui=NONE
 
 " git-gutter
-hi GitGutterDelete        ctermbg=0  ctermfg=1 cterm=NONE    guibg=#24364b  guifg=#e76d6d  gui=NONE
-hi GitGutterAdd           ctermbg=0  ctermfg=2 cterm=NONE    guibg=#24364b  guifg=#88c563  gui=NONE
-hi GitGutterChange        ctermbg=0  ctermfg=3 cterm=NONE    guibg=#24364b  guifg=#ecb534  gui=NONE
-hi GitGutterChangeDelete  ctermbg=0  ctermfg=9 cterm=NONE    guibg=#24364b  guifg=#edbabf  gui=NONE
-
+hi GitGutterDelete            ctermbg=0  ctermfg=1 cterm=NONE        guibg=#24364b  guifg=#e76d6d  gui=NONE
+hi GitGutterAdd               ctermbg=0  ctermfg=2 cterm=NONE        guibg=#24364b  guifg=#88c563  gui=NONE
+hi GitGutterChange            ctermbg=0  ctermfg=3 cterm=NONE        guibg=#24364b  guifg=#ecb534  gui=NONE
+hi GitGutterChangeDelete      ctermbg=0  ctermfg=9 cterm=NONE        guibg=#24364b  guifg=#edbabf  gui=NONE
 hi GitGutterDeleteLine        ctermbg=1  ctermfg=0 cterm=NONE        guibg=#e76d6d  guifg=#24364b  gui=NONE
 hi GitGutterAddLine           ctermbg=2  ctermfg=0 cterm=NONE        guibg=#88c563  guifg=#24364b  gui=NONE
 hi GitGutterChangeLine        ctermbg=0  ctermfg=3 cterm=UNDERLINE   guibg=#24364b  guifg=#ecb534  gui=UNDERLINE
