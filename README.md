@@ -29,7 +29,7 @@ Clears up syntax highlighting to reveal what is important.
 ![diff](https://i.imgur.com/UU5Ccw6.png)
 
 
-In addition you can inspect this theme at [**vivify**](http://bytefluent.com/vivify/index.php?remote=raw.githubusercontent.com%2FKKPMW%2Fdistilled-vim%2Fmaster%2Fcolors%2Fdistilled.vim)
+In addition you can inspect this theme at [**vivify**](http://bytefluent.com/vivify/index.php?remote=raw.githubusercontent.com%2Fkaroliskoncevicius%2Fdistilled-vim%2Fmaster%2Fcolors%2Fdistilled.vim)
 
 ### Installation ###
 
@@ -38,7 +38,7 @@ Install manually or with your favorite plug-in manager and then load the theme.
 With `vim-plug`:
 
 ```VimL
-Plug 'KKPMW/distilled-vim'
+Plug 'karoliskoncevicius/distilled-vim'
 colorscheme distilled
 ```
 
